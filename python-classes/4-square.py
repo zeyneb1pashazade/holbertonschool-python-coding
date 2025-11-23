@@ -60,14 +60,15 @@ class Square:
 
     def my_print(self):
         """
-        Karenin boyutuna göre, `#` karakterini kullanarak kareyi standart çıktıya
-        (stdout) yazdırır.
+        Karenin boyutuna göre, `#` karakterini kullanarak kareyi standart
+        çıktıya (stdout) yazdırır.
 
         Eğer boyut (size) 0 ise, sadece boş bir satır yazdırılır.
         """
         if self.__size == 0:
             print("")
         else:
-            # Boyut kadar satır (yükseklik) ve her satırda boyut kadar '#' (genişlik) yazdırırız.
+            # Boyut kadar satır (yükseklik) ve her satırda boyut kadar '#'
+            # (genişlik) yazdırırız.
             for i in range(self.__size):
                 print("#" * self.__size)
